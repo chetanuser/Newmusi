@@ -1,0 +1,88 @@
+{
+    "name": "EsproMusic",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://telegra.ph/file/f8b1a280bfc6149974ebd.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "EsproMusic",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Get this value from https://my.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "Get a mongodb url from https://cloud.mongodb.com.",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "The user id of user whom you would like to add as OWNER.",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHAT": {
+        "description": "Aapna channel ka link dal liya to group ka ve dal lo",
+        "value": "",
+        "required": true
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Cholo Koi na aapn he Channel link dal lo",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "A Pyrogram v2 String Session from @EsproStringBot on Telegram.",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "START_IMG_URL": {
+        "description": "Bot ka image ",
+        "value": "",
+        "required": true
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      },
+      "LOGGER_ID": {
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
