@@ -1,12 +1,12 @@
 {
-    "name": "EsproMusic",
+    "name": "SWEET_TOXIC_MUSIC",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/f8b1a280bfc6149974ebd.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "EsproMusic",
+    "SWEET_TOXIC_MUSIC",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
