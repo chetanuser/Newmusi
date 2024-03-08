@@ -3,7 +3,7 @@ import math
 from config import SUPPORT_CHAT, OWNER_ID
 from pyrogram.types import InlineKeyboardButton
 
-from EsproMusic.utils.formatters import time_to_seconds
+from SWEET_TOXIC_MUSIC.utils.formatters import time_to_seconds
 
 
 def track_markup(_, videoid, user_id, channel, fplay):
