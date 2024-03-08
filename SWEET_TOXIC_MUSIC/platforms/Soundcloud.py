@@ -2,7 +2,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from EsproMusic.utils.formatters import seconds_to_min
+from SWEET_TOXIC_MUSIC.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
