@@ -6,7 +6,7 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
 from SWEET_TOXIC_MUSIC import app
-from SWEET_TOXIC_MUSIC.core.call import Ritik
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.misc import db
 from SWEET_TOXIC_MUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
 from SWEET_TOXIC_MUSIC.utils.decorators import ActualAdminCB, AdminActual, language
