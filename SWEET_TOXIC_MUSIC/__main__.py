@@ -50,7 +50,7 @@ async def init():
         pass
     await WEREWOLF_DEMON.decorators()
     LOGGER("SWEET_TOXIC_MUSIC").info(
-        "Espro Music started"
+        "WEREWOLF_DEMON Music started"
     )
     await idle()
     await app.stop()
