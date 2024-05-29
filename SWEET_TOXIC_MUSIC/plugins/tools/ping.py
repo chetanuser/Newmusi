@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SWEET_TOXIC_MUSIC import app
-from SWEET_TOXIC_MUSIC.core.call import Ritik
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.utils import bot_sys_stats
 from SWEET_TOXIC_MUSIC.utils.decorators.language import language
 from SWEET_TOXIC_MUSIC.utils.inline import supp_markup
@@ -19,7 +19,7 @@ async def ping_com(client, message: Message, _):
         photo=PING_IMG_URL,
         caption=_["ping_1"].format(app.mention),
     )
-    pytgping = await Ritik.ping()
+    pytgping = await WEREWOLF_DEMON.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     await response.edit_text(
