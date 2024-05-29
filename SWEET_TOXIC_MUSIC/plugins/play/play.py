@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SWEET_TOXIC_MUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SWEET_TOXIC_MUSIC.core.call import Ritik
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.utils import seconds_to_min, time_to_seconds
 from SWEET_TOXIC_MUSIC.utils.channelplay import get_channeplayCB
 from SWEET_TOXIC_MUSIC.utils.decorators.language import languageCB
@@ -288,7 +288,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Ritik.stream_call(url)
+                await WEREWOLF_DEMON.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
@@ -512,7 +512,7 @@ async def anonymous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("RitikPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("WEREWOLF_DEMONPlaylists") & ~BANNED_USERS)
 @languageCB
 async def play_playlists_command(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
