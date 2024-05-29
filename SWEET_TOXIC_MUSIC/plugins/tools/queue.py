@@ -8,7 +8,7 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from SWEET_TOXIC_MUSIC import app
 from SWEET_TOXIC_MUSIC.misc import db
-from SWEET_TOXIC_MUSIC.utils import RitikBin, get_channeplayCB, seconds_to_min
+from SWEET_TOXIC_MUSIC.utils import WEREWOLF_DEMONBin, get_channeplayCB, seconds_to_min
 from SWEET_TOXIC_MUSIC.utils.database import get_cmode, is_active_chat, is_music_playing
 from SWEET_TOXIC_MUSIC.utils.decorators.language import language, languageCB
 from SWEET_TOXIC_MUSIC.utils.inline import queue_back_markup, queue_markup
