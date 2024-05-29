@@ -1,6 +1,10 @@
-from SWEET_TOXIC_MUSIC.misc import SUDOERS
-from SWEET_TOXIC_MUSIC.utils.database import get_lang, is_maintenance
 from strings import get_string
+
+from SWEET_TOXIC_MUSIC import app
+from SWEET_TOXIC_MUSIC.misc import SUDOERS
+from config import SUPPORT_CHAT
+from SWEET_TOXIC_MUSIC.utils.database import get_lang, is_maintenance
+
 
 
 def language(mystic):
