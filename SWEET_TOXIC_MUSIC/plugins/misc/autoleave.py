@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from SWEET_TOXIC_MUSIC import app
-from SWEET_TOXIC_MUSIC.core.call import Ritik, autoend
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON, autoend
 from SWEET_TOXIC_MUSIC.utils.database import get_client, is_active_chat, is_autoend
 
 
