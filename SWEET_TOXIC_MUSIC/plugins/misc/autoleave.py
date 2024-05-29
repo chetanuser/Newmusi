@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Ritik.stop_stream(chat_id)
+                    await WEREWOLF_DEMON.stop_stream(chat_id)
                 except:
                     continue
                 try:
