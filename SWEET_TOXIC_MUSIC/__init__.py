@@ -1,4 +1,4 @@
-from SWEET_TOXIC_MUSIC.core.bot import Ritik
+from SWEET_TOXIC_MUSIC.core.bot import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.core.dir import dirr
 from SWEET_TOXIC_MUSIC.core.git import git
 from SWEET_TOXIC_MUSIC.core.userbot import Userbot
