@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SWEET_TOXIC_MUSIC import app
-from SWEET_TOXIC_MUSIC.core.call import Ritik
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.misc import SUDOERS, db
 from SWEET_TOXIC_MUSIC.utils import AdminRightsCheck
 from SWEET_TOXIC_MUSIC.utils.database import is_active_chat, is_nonadmin_chat
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await Ritik.speedup_stream(
+        await WEREWOLF_DEMON.speedup_stream(
             chat_id,
             file_path,
             speed,
