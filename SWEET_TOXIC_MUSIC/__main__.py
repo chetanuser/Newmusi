@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SWEET_TOXIC_MUSIC import LOGGER, app, userbot
-from SWEET_TOXIC_MUSIC.core.call import Ritik
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.misc import sudo
 from SWEET_TOXIC_MUSIC.plugins import ALL_MODULES
 from SWEET_TOXIC_MUSIC.utils.database import get_banned_users, get_gbanned
@@ -38,9 +38,9 @@ async def init():
         importlib.import_module("SWEET_TOXIC_MUSIC.plugins" + all_module)
     LOGGER("SWEET_TOXIC_MUSIC.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await Ritik.start()
+    await WEREWOLF_DEMON.start()
     try:
-        await Ritik.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await WEREWOLF_DEMON.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("SWEET_TOXIC_MUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -48,14 +48,14 @@ async def init():
         exit()
     except:
         pass
-    await Ritik.decorators()
+    await WEREWOLF_DEMON.decorators()
     LOGGER("SWEET_TOXIC_MUSIC").info(
-        "SWEET_TOXIC_MUSIC Bot Started Successfully, "
+        "Espro Music started"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("SWEET_TOXIC_MUSIC").info("Stopping SWEET_TOXIC_MUSIC Music Bot...")
+    LOGGER("SWEET_TOXIC_MUSIC").info("Stopping Music Bot...")
 
 
 if __name__ == "__main__":
