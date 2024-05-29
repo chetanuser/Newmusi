@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SWEET_TOXIC_MUSIC import YouTube, app
-from SWEET_TOXIC_MUSIC.core.call import Ritik
+from SWEET_TOXIC_MUSIC.core.call import WEREWOLF_DEMON
 from SWEET_TOXIC_MUSIC.misc import db
 from SWEET_TOXIC_MUSIC.utils import AdminRightsCheck, seconds_to_min
 from SWEET_TOXIC_MUSIC.utils.inline import close_markup
@@ -56,7 +56,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
     if "index_" in file_path:
         file_path = playing[0]["vidid"]
     try:
-        await Ritik.seek_stream(
+        await WEREWOLF_DEMON.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
