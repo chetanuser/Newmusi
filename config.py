@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = 10248430
+API_HASH = "42396a6ff14a569b9d59931643897d0d"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = "6618122929:AAH3_xWlXb8Ye_VfbY8CxcJBSULz_KFef2U"
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -22,10 +22,10 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "5400")
 )
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = -1001907436368
 
 # Get this value from @Hot_Girl_Robot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6656608288"))
+OWNER_ID = int(getenv("OWNER_ID", "6203163206"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SweetToxicDevil/SWEET_TOXIC_MUSIC_BOT",
+    "https://github.com/chetanuser/Newmusi",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "SIGMA")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SweetToxicSupport")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/SweetToxicUpdate")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SUKUNA_UPDATE_CHANNEL")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Shizuka_update_group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -67,7 +67,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @Venom_string_robot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = "BQFx4q8AJY8DnBnTExgT6HYfFHJMa2Xk3fMKvbNC3oGqRfaD9GNpM_6yGPYSt_G-0aIyMepMVu5pWxdv2wZjoSEXvNn1JozBWM8QBt8TEs-y_UUpl76iGI1XQuo7-9EzW6ePrjAy9jEtcuiwM847nhGKMQo-5d8RDiHfpwa7r-QCekbcLnRszHcWdUN5YP8PBy2j2Vl9b6BRSZTiE2UL4ZHP7fpNyAZJLanGQNtV6QAFMZGviLTC6qj3Z9eOxYh7y7EwMPXSJVMlT0wPdiwImhl_at8pL6YCgC71MUMI1793e9NUKt0d2oTRUXj8lXYcuB-6xvQKRwagYhr4KFiIj3vzF8jVnQAAAAFPrvAtAA" #"BQCcYO4AOC7NPimTcvq7T6XfIiwMQxh9Z6XKRcV8ybMTiZXznqnOdfzpvAYQbCNsCOfWz31wR6pAjGecCP3nojlZOnaqUpbvDXuhQbHLgY9iHn_ikwbuZkUaOAWzBEnair1nZUzONb62bBgFR7XwhVVYhmkWxSHWfvBM6hALc-PkrT5SGBwL5Fz_XcXii5tHzB3UVw5ASkL2YXz9sCh5N2PdOAH8eOjPrWb5NL5wagRBm9kIcAbCIeED725GMCfGRmdvzbdYv9TiS_Q65Qp31KkXVST1Yov07cSd_c6Mh5ATG1t5zX3Ift43lu3-GS9vO0qLW0XZPnpH1ZOaQFFyo8sHXgra6wAAAAFyF4XTAA" #getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -87,13 +87,13 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/7dfafa84aa11ca3b7d5f6.jpg"
+    "START_IMG_URL", "https://graph.org/file/407b7c3930c1158f1492f.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/a9ed7db13cf412221ae01.jpg"
+    "PING_IMG_URL", "https://graph.org/file/407b7c3930c1158f1492f.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/9bdd7cda2738dbd5c2505.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/28ed330e5d17c7ad9bb30.jpg"
+STATS_IMG_URL = "https://graph.org/file/407b7c3930c1158f1492f.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/9eb6d3372d5880d1ed4a2.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d36a494d662d8b9f350d0.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/8f8ea633467c2a78d3d9a.jpg"
